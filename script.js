@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.getElementById("whatsapp-btn")?.addEventListener("click", function () {
   const name = document.querySelector('input[name="name"]').value;
   const message = document.querySelector('textarea[name="message"]').value;
-  const phone = "6281219035683";
+  const phone = "6285772850740";
 
   const whatsappURL = `https://wa.me/${phone}?text=Halo,%20saya%20${encodeURIComponent(
     name
